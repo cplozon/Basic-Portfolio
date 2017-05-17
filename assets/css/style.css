@@ -1,0 +1,194 @@
+* {
+	box-sizing: border-box;
+}
+ h1, h2, h3 {
+ 			font-family: 'Georgia', Times, Times New Roman, serif;
+
+ }
+
+h2, h3 { 
+	 color: #4aaaa5;
+
+}
+
+h3 { 
+	font-size: 18px;
+ }
+
+.container {
+			width: 1060px;
+			background-color: #ffffff;
+			margin: 0 auto 0 auto;
+			font-family: "Arial", 'Helvetica Neue', Helvetica, sans-serif;
+			padding-top: 30px;
+
+}
+
+.headingcontainer {
+			width: 960px;
+			margin: 0 auto 0 auto;
+			text-align: right;
+
+		
+}
+
+.namecontainer {
+
+			width: 220px;
+			height: 100px;
+			background-color: #4aaaa5;
+			text-align: center;
+			color: white;
+			padding: 10px;
+
+
+}
+
+.navcontainer {
+			width: 300px;
+			border: 1px solid pink;
+			text-align: center;
+			float:right;
+}
+
+.imagecontainer {
+			width: 1060px;
+			height:550px;
+			background-color: #f0ffff;
+			padding-top: 50px;
+			padding-left: 50px;
+			border-top: 2px solid #dddddd;
+		
+
+ }
+
+ #background { position: relative;
+  }
+
+.aboutmecontainer {
+			width: 650px;
+			height: 440px;
+			background-color: #ffffff;
+			border: 1px solid #dddddd;
+			padding: 12px;
+			float: left;
+}
+
+.aboutmecontainertwo {
+			width: 650px;
+			height: 440px;
+			background-color: #ffffff;
+			border: 1px solid #dddddd;
+			padding: 12px;
+			float: left;
+
+}
+
+
+.linebox {  width: 610px;
+			height: 360px;
+			border-top: 2px solid #dddddd; 
+			text-align: left;
+			color: #777777;
+
+		}
+
+h5 { position: absolute;
+	 top: 10%
+	 left: 1%
+	 background-color: #ffffff;
+	 color: black;
+	 padding: 1%; }
+
+#tiger { position: relative; 
+		border: 10px solid pink;
+		width: 100%;
+
+}
+
+h4 { position: absolute; 
+	 top: 100px;
+	 left: 0;
+	 width: 100%;
+	}
+
+#runnerimage {
+				padding: 10px;
+				width: 170px;
+				height: 170px;
+				float:left;
+}
+
+.connectwithmecontainer {
+			width: 270px;
+			height: 210px;
+			background-color: #ffffff;
+			border: 1px solid #dddddd;
+			margin-right: 20px;
+			padding: 18px;
+			float: right;
+			text-align: center;
+	
+}
+
+.lineboxconnect {
+		width: 230px;
+		height: 150px;
+		border-top: 2px solid #dddddd; 
+		padding: 12px;
+}
+
+
+#facebook, #instagram, #github {
+			width: 50px;
+			height: 50px;
+}
+
+#linepic {
+			width: 50px;
+			height: 50px;
+}
+
+.footer {
+		margin: 0 auto 0 auto;
+		font-size: 10px;
+		text-align: center;
+		color: #777777;
+		padding: 20px;
+		background-color: #666666;
+		border-top: 7px solid #4aaaa5;
+		width: 1060;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #dddddd; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.containercontact {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
